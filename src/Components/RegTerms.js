@@ -3,7 +3,7 @@ import img from '../images/img.svg'
 function RegTerms() {
   return (
     <div>
-    <div  className="d-sm-flex align-items-center justify-content-between  p-5" style={{backgroundColor:'#000033',color:'white'}}>
+    <div  className="d-sm-flex align-items-center justify-content-between  p-5" >
      
       <div >
       <h3>REGISTRATION TERMS</h3>

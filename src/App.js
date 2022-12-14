@@ -8,17 +8,16 @@ import Prizes from './Components/Prizes';
 import ProgStruct from './Components/ProgStruct';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Timeline from "./Components/Timeline";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
       <Home/>
       
       <RegTerms/>
       <RegGuid/>
-      <ProgStruct/>
-      
+      <Timeline/>
       
       
       <Prizes/>
