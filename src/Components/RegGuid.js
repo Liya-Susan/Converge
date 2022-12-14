@@ -7,7 +7,7 @@ function RegGuid() {
     <div>
     <div style={{backgroundColor:'#000033',color:'white',padding:'1%'}}>
     <h3 style={{margin:'30px'}}>GUIDELINES</h3>
-    <div style={{padding:'5%',color:'white',fontSize:'20px'}}className="d-sm-flex align-items-center justify-content-between m-5 p-5" >
+    <div style={{padding:'5%',color:'white',fontSize:'20px'}}className="d-sm-flex align-items-center justify-content-between  p-5" >
       
         
         <img src={imgtwo}  className="img-fluid w-50 d-none d-sm-block"></img>
