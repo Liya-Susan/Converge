@@ -1,9 +1,17 @@
 import React from 'react'
+import imgtwo from '../images/imgtwo.svg'
+import imgthree from '../images/imgthree.svg'
 
 function RegGuid() {
   return (
-    <div style={{marginTop:'9.5%',padding:'5%',color:'white',fontSize:'20px'}} className="bg-dark">
-      <h3>GUIDELINES</h3>
+    <div>
+    <div style={{backgroundColor:'#000033',color:'white',padding:'1%'}}>
+    <h3 style={{margin:'30px'}}>GUIDELINES</h3>
+    <div style={{padding:'5%',color:'white',fontSize:'20px'}}className="d-sm-flex align-items-center justify-content-between m-5 p-5" >
+      
+        
+        <img src={imgtwo}  className="img-fluid w-50 d-none d-sm-block"></img>
+        <div>
       <div>
       1. The participants should be students of Mar Baselios College of Engineering and Technology.
       </div>
@@ -25,6 +33,11 @@ function RegGuid() {
       <div>
       7. The first level of scrutinizing of applications by a expert panel by analyzing the video uploaded by the team members.
       </div>
+      </div>
+      </div>
+
+      <div style={{padding:'5%',color:'white',fontSize:'20px'}}className="d-sm-flex align-items-center justify-content-between m-5 p-5" >
+        <div>
       <div>
       8. Delineate will be conducted in hybrid more ie hackton will be online and final presentation will be offline.
       </div>
@@ -46,11 +59,24 @@ function RegGuid() {
       <div>
       14. The organizing committee will have the right to add/update rules as needed.
       </div>
+      </div>
+      <img src={imgthree}  className="img-fluid w-50 d-none d-sm-block"></img>
+  </div>
       
   
 
 
     </div>
+    
+     
+      
+  
+      
+  
+
+
+    </div>
+
   )
 }
 

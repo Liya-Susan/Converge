@@ -2,7 +2,7 @@ import React from 'react'
 import prizes from '../images/prizes.png'
 function Prizes() {
   return (
-    <div  className="d-sm-flex align-items-center justify-content-between m-5 container">
+    <div style={{backgroundColor:'#000033',color:'white'}} className="d-sm-flex align-items-center justify-content-between p-5">
       <div><h1 >PRIZES</h1>
       
       

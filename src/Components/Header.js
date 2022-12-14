@@ -1,13 +1,13 @@
 import React from 'react'
+import navbar from '../images/navbar.png'
 
 function Header() {
   return (
     <div>
-       <nav className='navbar  bg-dark navbar-dark py-3 fixed-top'>
-        <div className='container'>
-            <a href="#" className="navbar-brand">CONVERGE</a>
+       <nav >
+        <div >
            
-
+              <img src={navbar} style={{width:'100vw',height:'100px'}}></img>
             
 
         </div>

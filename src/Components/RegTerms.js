@@ -1,9 +1,11 @@
 import React from 'react'
-
+import img from '../images/img.svg'
 function RegTerms() {
   return (
     <div>
-      <div style={{margin:'9.5%',fontSize:'20px'}}>
+    <div  className="d-sm-flex align-items-center justify-content-between  p-5" style={{backgroundColor:'#000033',color:'white'}}>
+     
+      <div >
       <h3>REGISTRATION TERMS</h3>
       <div>
       1. The participating teams should be students of mar baselios college of engineering who are currently studying.
@@ -25,9 +27,14 @@ function RegTerms() {
 
 
       </div>
+
+      </div>
       
       
-  
+      
+       
+        <img src={img}  className="img-fluid w-50 d-none d-sm-block"></img>
+       
 
 
     </div>

@@ -5,7 +5,7 @@ function ProgStruct() {
     <div  style={{margin:'9.5%'}}>
       <h3>Program Schedule</h3>
       <br/>
-      <table className="table table-bordered table-striped table-dark ">
+      <table className="table table-bordered table-striped table-dark " style={{backgroundColor:'#000033'}}>
   <thead>
     <tr>
       <th scope="col">Sl No</th>

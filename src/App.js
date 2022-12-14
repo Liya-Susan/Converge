@@ -16,10 +16,11 @@ function App() {
       <Home/>
       
       <RegTerms/>
+      <RegGuid/>
       <ProgStruct/>
       
       
-      <RegGuid/>
+      
       <Prizes/>
       <Footer/>
     </div>
