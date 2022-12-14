@@ -7,9 +7,9 @@ function Prizes() {
       <div><h1 >PRIZES</h1>
       
       
-      <h3 style={{marginTop:'40px'}}>1st prize: Rs. 6000/-</h3>
-      <h3>2nd prize: Rs. 4000/-</h3>
-      <h3 style={{marginBottom:'60px'}}>3rd prize: Rs. 3000/-</h3></div> 
+      <h3 style={{marginTop:'40px'}}>First prize: Rs. 6000/-</h3>
+      <h3>Second prize: Rs. 4000/-</h3>
+      <h3 style={{marginBottom:'60px'}}>Third prize: Rs. 3000/-</h3></div> 
         
       
 
