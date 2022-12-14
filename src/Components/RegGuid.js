@@ -11,7 +11,7 @@ function RegGuid() {
       
         
         <img src={imgtwo}  className="img-fluid w-50 d-none d-sm-block"></img>
-        <div>
+        <div >
       <div>
       1. The participants should be students of Mar Baselios College of Engineering and Technology.
       </div>

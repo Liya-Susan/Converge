@@ -19,7 +19,7 @@ function ProgStruct() {
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>	Application registration</td><td>	3/12/2022</td><td>		8/12/2022</td>	<td>Online</td>
+      <td>Application registration</td><td>	3/12/2022</td><td>		8/12/2022</td>	<td>Online</td>
       
     </tr>
     <tr>
