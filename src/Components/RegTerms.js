@@ -3,10 +3,12 @@ import img from '../images/img.svg'
 function RegTerms() {
   return (
     <div>
-    <div  className="d-sm-flex align-items-center justify-content-between  p-5" >
-     
+      <h3 style={{marginLeft:'40%',marginTop:'9%',marginBottom:'-10%',color:'#000033'}}>REGISTRATION TERMS</h3>
+
+    <div  className="d-sm-flex align-items-center justify-content-between p-5 m-5"  >
+
       <div >
-      <h3>REGISTRATION TERMS</h3>
+
       <div>
       1. The participating teams should be students of mar baselios college of engineering who are currently studying.
       </div>
