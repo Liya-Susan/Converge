@@ -4,7 +4,7 @@ import Item from "./item";
 export default function index() {
   return (
     <>
-     <h1 style={{marginLeft:'45%',marginTop:'10%',color:'#000033'}}>TIMELINE</h1>
+     <h1 style={{marginLeft:'45%',marginTop:'10%',marginBottom:'7%',color:'#000033'}}>TIMELINE</h1>
       <div className="container-timeline " style={{marginLeft:'32%'}}>
         {items.map((item, index) => (
           <Item data={item} key={item.title} index={index}/>

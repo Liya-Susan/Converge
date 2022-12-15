@@ -103,7 +103,6 @@
     left: -52px;
     position: absolute;
     color: white;
-    content: "0" counter(contador);
     z-index: 1;
   }
   

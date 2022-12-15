@@ -18,7 +18,7 @@ function Prizes() {
            <div class="avatar mx-auto">
            
           </div>
-          <button style={{borderRadius:'50% ',padding:'20px 30px'}}> 1 </button>
+          <button style={{borderRadius:'50% ',padding:'20px 30px',backgroundColor:'yellow',color:'white'}}> 1 </button>
           <h4 class="font-weight-bold dark-grey-text mt-4">First Prize</h4>
           <h6 class="font-weight-bold blue-text my-3">6000/-</h6>
           
