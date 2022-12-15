@@ -12,7 +12,7 @@ import Timeline from "./Components/Timeline";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App " style={{overflow:'auto'}}>
       <Header/>
       <Home/>
       <About/>

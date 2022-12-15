@@ -4,7 +4,7 @@ import mbcet from '../images/mbcet.png';
 function Navbar() {
   return (
     <div>
-      <nav>
+      <nav style={{overflowX:'hidden'}}>
         <Link to='main' className='logo' >
             <img src={mbcet} alt='logo'/>
         </Link>
