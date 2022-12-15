@@ -6,7 +6,7 @@ function Prizes() {
   return (
     
     
-    <section class=" mt-5" id="tourist"  style={{backgroundColor:'#000033',color:'white',padding:'1%'}}>    
+    <section class=" mt-5" id="prizes"  style={{backgroundColor:'#000033',color:'white',padding:'1%'}}>    
      <div class="container">
       <div class="row text-center text-align-center align-items-center">
         <div class="col-sm-12 col-md-12 mb-4">
