@@ -4,7 +4,7 @@ import imgthree from '../images/imgthree.svg'
 
 function RegGuid() {
   return (
-    <div>
+    <div id='regguid'>
     <div style={{backgroundColor:'#000033',color:'white',padding:'1%'}}>
     <h3 style={{marginLeft:'44%',marginTop:'4%'}}>GUIDELINES</h3>
     <div style={{padding:'5%',color:'white',fontSize:'20px'}}className="d-sm-flex align-items-center justify-content-between  p-5" >
