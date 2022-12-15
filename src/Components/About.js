@@ -12,7 +12,7 @@ function About() {
       <h4>Converge   is a 24 hour hackathon </h4> by Catalyst  Mar Baselios College of Engineering and Technology  IEDC <div> as a part of Innovators Premier League by Kerala start up mission.</div><div>The winners will be nominated for regional level   hackathon </div> conducted by kerala start up mission.
       <br/>
       <br/>
-      <button style={{display: 'inlineBlock',
+     <a href='https://spice-jupiter-416.notion.site/Converge-73cb3f712a4e4264b5452d5f36d4b0ab'> <button style={{display: 'inlineBlock',
       margin:'0 auto',
         textDecoration: 'none',
         background: '#0676B8',
@@ -21,7 +21,7 @@ function About() {
         border: '3px solid #0676B8 ',
         padding:'7px ',
         borderRadius:'20px',
-        position:'relative'}}>KNOW MORE</button>
+        position:'relative'}}>KNOW MORE</button></a>
     </h5>
     </div>
   )
