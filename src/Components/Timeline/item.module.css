@@ -84,13 +84,14 @@
   
   .container-content-header-time::before {
     background-color: #202024;
-    bottom: -20px;
-    width: 50px;
-    height: 50px;
-    margin-left: -72px;
+    bottom: 2px;
+    width: 30px;
+    height: 30px;
+    margin-left: -62px;
     margin-top: -13.5px;
     position: absolute;
     content: "";
+    top:'-20px';
     left: 8px;
     border-radius: 35%;
   }
