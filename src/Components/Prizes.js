@@ -4,7 +4,6 @@ import imgtwo from '../images/imgtwo.svg'
 
 function Prizes() {
   return (
-<<<<<<< HEAD
     
     
     <section class=" mt-5" id="tourist"  style={{backgroundColor:'#000033',color:'white',padding:'1%'}}>    
@@ -52,17 +51,11 @@ function Prizes() {
       </div>
     </div> 
    </section> 
-=======
-    <div style={{backgroundColor:'#000033',color:'white'}} className="d-sm-flex align-items-center justify-content-between p-5" id='prizes'>
-      <div><h1 >PRIZES</h1>
-      
-      
-      <h3 style={{marginTop:'40px'}}>1st prize: Rs. 6000/-</h3>
-      <h3>2nd prize: Rs. 4000/-</h3>
-      <h3 style={{marginBottom:'60px'}}>3rd prize: Rs. 3000/-</h3></div> 
+
+    
         
       
->>>>>>> 8beaacf0db2c7787ead91b85385beaf99e7bbf0e
+
 
   )
 }
