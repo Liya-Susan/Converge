@@ -10,7 +10,7 @@ function RegGuid() {
     <div style={{padding:'5%',color:'white',fontSize:'20px'}}className="d-sm-flex align-items-center justify-content-between  p-5" >
       
         
-        <img src={imgtwo}  className="img-fluid w-50 d-none d-sm-block"></img>
+        <img src={imgtwo}  className="img-fluid w-50 d-none d-sm-block" style={{}}></img>
         <div >
       <div>
       1. The participants should be students of Mar Baselios College of Engineering and Technology.

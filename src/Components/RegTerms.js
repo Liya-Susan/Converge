@@ -3,7 +3,7 @@ import img from '../images/img.svg'
 function RegTerms() {
   return (
     <div id='regterms' className='text-align-center' >
-      <h3  className='text-align-center' style={{marginLeft:'37%', marginTop:'9%',marginBottom:'-7%',color:'#000033'}}>REGISTRATION TERMS</h3>
+      <h3  className='text-align-center' style={{marginLeft:'39%', marginTop:'9%',marginBottom:'-7%',color:'#000033'}}>REGISTRATION TERMS</h3>
 
     <div  className="d-sm-flex align-items-center justify-content-between p-5 m-5"  >
 
