@@ -27,7 +27,7 @@ const steps = [
     content: [
       {
         title: "Online",
-        subtitle:"12-12-2022 "
+        subtitle:"16-12-2022 "
 
       },
     ],
@@ -38,7 +38,7 @@ const steps = [
     content: [
       {
         title: "Online",
-        subtitle:"16-12-2022 to 17-12-2022"
+        subtitle:"18-12-2022"
 
       },
      
@@ -62,7 +62,7 @@ const steps = [
     content: [
       {
         title: "Offline",
-        subtitle:"17-12-2022"
+        subtitle:"19-12-2022"
 
       },
       

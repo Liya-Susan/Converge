@@ -1,6 +1,10 @@
 import React from 'react'
 import prizes from '../images/prizes.png'
-import imgtwo from '../images/imgtwo.svg'
+import first from '../images/first.jpg'
+import second from '../images/second.jpg'
+import third from '../images/third.jpg'
+
+
 
 function Prizes() {
   return (
@@ -18,7 +22,7 @@ function Prizes() {
            <div class="avatar mx-auto">
            
           </div>
-          <button style={{borderRadius:'50% ',padding:'20px 30px'}}> 1 </button>
+          <button style={{borderRadius:'50% '}}> <img src={first} style={{borderRadius:'45% ',padding:'0 10%',backgroundColor:'white'}}></img> </button>
           <h4 class="font-weight-bold dark-grey-text mt-4">First Prize</h4>
           <h6 class="font-weight-bold blue-text my-3">6000/-</h6>
           
@@ -30,7 +34,7 @@ function Prizes() {
           <div class="avatar mx-auto">
            
           </div>
-          <button style={{borderRadius:'50% ',padding:'20px 30px'}}> 2 </button>
+          <button style={{borderRadius:'50% '}}> <img src={second} style={{borderRadius:'45% ',padding:'0 4%',backgroundColor:'white'}}></img> </button>
           <h4 class="font-weight-bold dark-grey-text mt-4">Second Prize</h4>
           <h6 class="font-weight-bold blue-text my-3">4000/-</h6>
          
@@ -42,9 +46,9 @@ function Prizes() {
           <div class="avatar mx-auto">
            
           </div>
-          <button style={{borderRadius:'50% ',padding:'20px 30px'}}> 3 </button>
+          <button style={{borderRadius:'50% ',backgroundColor:'#000033'}}> <img src={third} style={{borderRadius:'45% ',padding:'0 10%',backgroundColor:'white'}}></img> </button>
           <h4 class="font-weight-bold dark-grey-text mt-4">Third Prize</h4>
-          <h6 class="font-weight-bold blue-text my-3">2000/-</h6>
+          <h6 class="font-weight-bold blue-text my-3">3000/-</h6>
           
         </div>
         </div>
