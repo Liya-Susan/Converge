@@ -7,7 +7,7 @@ import home from '../images/home.png'
 
 function Home(){
   const style={ backgroundImage: `url(${hackathon})`,backgroundRepeat: 'no-repeat',
-  backgroundSize:'100% 100%',height:'100vh', backgroundPosition: 'center',width:'98.7vw',overflowX:'hidden','@media  (max-width:400px)':{
+  backgroundSize:'100% 100%',height:'100vh', backgroundPosition: 'center',width:'100vw',overflowX:'hidden','@media  (max-width:400px)':{
     backgroundImage: `url(${home})`,height:'70vh'
   }
   }
