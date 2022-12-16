@@ -8,8 +8,8 @@ import Radium, { StyleRoot } from 'radium';
 
 
 function Header() {
-  const style={'@media  (max-width:400px)':{
-    display:'none',visibility:'hidden'
+  const style={height:'50px',marginRight:'50px','@media  (max-width:400px)':{
+    display:'none'
   }}
   return (
     <section class="navbar-dark header navbar-fixed" style={{backgroundColor:'#000033'}}>
@@ -17,8 +17,8 @@ function Header() {
           <div class="row">
            <div class="col-sm-12"> 
             <nav class="navbar navbar-expand-lg ">
-            <Link to='main' className='logo' style={style} >
-            <img src={mbcet} alt='logo' style={{height:'50px',marginRight:'50px'}}/>
+            <Link to='main' className='logo' >
+            <img src={mbcet} alt='logo' style={style}/>
         </Link>
              
  
