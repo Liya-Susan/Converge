@@ -1,5 +1,7 @@
 import React from 'react'
 import footer from '../images/footer.png'
+import Radium, { StyleRoot } from 'radium';
+
 function Footer() {
   return (
     <div>

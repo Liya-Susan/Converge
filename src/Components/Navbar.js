@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-scroll';
 import mbcet from '../images/mbcet.png';
+import Radium, { StyleRoot } from 'radium';
+
 function Navbar() {
   return (
     <div>

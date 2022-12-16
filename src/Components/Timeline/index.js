@@ -1,10 +1,15 @@
 import React from "react";
 import items from "./content";
 import Item from "./item";
-export default function index() {
+import Radium, { StyleRoot } from 'radium';
+
+ function index() {
+  const style={marginLeft:'45%',marginTop:'10%',marginBottom:'7%',color:'#000033','@media  (max-width:400px)':{
+    marginLeft:'5%',textAlign:'center'
+   },}
   return (
     <>
-     <h1 style={{marginLeft:'45%',marginTop:'10%',marginBottom:'7%',color:'#000033'}}>TIMELINE</h1>
+     <h1 style={style}>TIMELINE</h1>
       <div className="container-timeline " style={{marginLeft:'32%'}}>
         {items.map((item, index) => (
           <Item data={item} key={item.title} index={index}/>
@@ -28,3 +33,4 @@ export default function index() {
     </>
   );
 }
+export default Radium(index)

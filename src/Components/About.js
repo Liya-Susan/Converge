@@ -1,14 +1,30 @@
 import React from 'react'
 import home from '../images/home.png'
 import './about.css'
+import Radium, { StyleRoot } from 'radium';
+
 function About() {
+   const styleone={display: 'flex',
+   justifyContent: 'center',
+   paddingBottom:'6%',color:'white',
+   alignItems: 'center',flexDirection:'column',height:'90vh',lineHeight:'25px',PaddingTop:'6%',backgroundColor:'#000033',lineHeight:'40px',
+  '@media  (max-width:400px)':{
+   padding:'8%',display: 'flex',PaddingTop:'3%',
+   justifyContent: 'center',alignItems: 'center',height:'100vh',textAlign:'center',lineHeight:'27px'
+  },
+  }
+
+  const styletwo={marginBottom:'3%',marginTop:'7%',
+  '@media  (max-width:400px)':{
+    padding:'8%',marginBottom:'10px'
+   },
+}
+
+   
   return (
     <div id='about' >
-    <h5 style={{display: 'flex',
-    justifyContent: 'center',
-    paddingBottom:'6%',color:'white',
-    alignItems: 'center',flexDirection:'column',height:'90vh',lineHeight:'25px',PaddingTop:'6%',backgroundColor:'#000033',lineHeight:'40px'}}>
-      <h2 style={{marginBottom:'3%',marginTop:'7%'}}>ABOUT</h2>
+    <h5 style={styleone}>
+      <h1 style={styletwo}>ABOUT</h1>
       <h4>Converge   is a 24 hour hackathon </h4> by Catalyst  Mar Baselios College of Engineering and Technology  IEDC <div> as a part of Innovators Premier League by Kerala start up mission.</div><div>The winners will be nominated for regional level   hackathon </div> conducted by kerala start up mission.
       <br/>
       <br/>
@@ -27,4 +43,4 @@ function About() {
   )
 }
 
-export default About
+export default Radium(About)

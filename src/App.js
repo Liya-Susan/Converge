@@ -8,9 +8,12 @@ import Prizes from './Components/Prizes';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Timeline from "./Components/Timeline";
+import Radium, { StyleRoot } from 'radium';
+
 
 function App() {
   return (
+    <StyleRoot>
     <div className="App " style={{overflow:'hidden'}}>
       <Header/>
       <Home/>
@@ -23,7 +26,8 @@ function App() {
       <Prizes/>
       <Footer/>
     </div>
+    </StyleRoot>
   );
 }
 
-export default App;
+export default Radium(App);
