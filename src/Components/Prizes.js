@@ -15,7 +15,7 @@ function Prizes() {
     width:'70px',height:'80px'
  }}
  const stylethree={borderRadius:'45% ',padding:'0 10%',backgroundColor:'white',fontSize:'10px',width:'110px',height:'110px','@media  (max-width:400px)':{
-  width:'80px',height:'80px'
+  width:'80px',height:'80px' 
 }}
   const style={backgroundColor:'#000033',color:'white',padding:'1%','@media  (max-width:400px)':{
    
@@ -27,7 +27,7 @@ function Prizes() {
      <div class="container">
       <div class="row text-center text-align-center align-items-center">
         <div class="col-sm-12 col-md-12 mb-4">
-            <h3 style={{margin:'50px'}} >Prizes</h3>
+            <h3 style={{margin:'50px'}} >PRIZES</h3>
          </div>
          
         <div class="col-md-4">

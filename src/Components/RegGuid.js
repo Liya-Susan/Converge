@@ -5,10 +5,10 @@ import Radium, { StyleRoot } from 'radium';
 
 
 function RegGuid() {
-  const styleone={padding:'5%',color:'white',fontSize:'20px','@media  (max-width:400px)':{
-    
+  const styleone={padding:'9%',color:'white',fontSize:'20px','@media  (max-width:400px)':{
+     padding:'3%'
    }}
-   const styletwo={padding:'3%',color:'white',fontSize:'20px','@media  (max-width:400px)':{
+   const styletwo={margin:'7%',color:'white',fontSize:'20px','@media  (max-width:400px)':{
      
    }}
    const stylethree={marginLeft:'43%',marginTop:'4%','@media  (max-width:400px)':{
@@ -27,79 +27,44 @@ function RegGuid() {
         <img src={imgtwo}  className="img-fluid w-50 d-none d-sm-block" style={{}}></img>
         <div >
       <div style={style}>
-      1. The participants should be students of Mar Baselios College of Engineering and Technology.
+      1. The winners will be nominated for regional level hackathon conducted by Kerala Startup Mission.
       </div>
       <br></br>
       <div style={style}>
-      2. The team should have a minimum of 2 and a maximum of 4 participants.
-      </div>
-      <br></br>
-
-      <div style={style}>
-      3. During registration, the team should upload a video recording consisting of outline of solution for problem statement which will be evaluated as the primary screening.
+      2. All the submissions and evaluations shall be in English 
       </div>
       <br></br>
 
       <div style={style}>
-      4. Teams will be selected and announced through online for participating in hackaton.
+      3. The participants are expected to develop a software prototype or a flow of the system addressing the problem statement that is given
       </div>
       <br></br>
 
       <div style={style}>
-      5. The selected teams has to give prior conformation to participate in hackaton.
+      4.Prototype is not mandatory, but it will be an added advantage during the presentation 
       </div>
-      
-      <br/>
-      <div style={style}>
-      6. The hackaton will be hybrid mode as mentioned in the schedule.
-      </div>
-      <br/>
+   
 
-      <div style={style}>
-      7. The first level of scrutinizing of applications by a expert panel by analyzing the video uploaded by the team members.
-      </div>
-      <br/>
+    
 
       </div>
       </div>
 
-      <div style={styletwo} className="d-sm-flex align-items-center justify-content-between p-3 " >
+      <div style={styletwo} className="d-sm-flex align-items-center justify-content-between  " >
         <div>
       <div style={style}>
-      8. Delineate will be conducted in hybrid more ie hackton will be online and final presentation will be offline.
+      5. Mentors will be allocated to each team, details will be further intimated through whatsapp and discord
       </div>
       <br/>
 
       <div style={style}>
-      9. The problem statements will be different for first level screening and hackaton.
+      6. Template for the pitch deck will be provided to you by our team
       </div>
       <br/>
 
-      <div style={style}>
-      10. The mentors will be in touch with the teams so that they can get more ideas.
+   
       </div>
-      <br/>
-
-      <div style={style}>
-      11. The judges will evaluate the solutions prepared by the teams and winners will be announced and winners will be announced. 
-      </div>
-      <br/>
-
-      <div style={style}>
-      12. The first  three winners will be nominated to regional level hackaton which will be conducted by kerala start up mission 
-      </div>
-      <br/>
-
-      <div style={style}>
-      13. The judgement by experts/judges will be final. No queries will be entertained.
-      </div>
-      <br/>
-
-      <div style={style}>
-      14. The organizing committee will have the right to add/update rules as needed.
-      </div>
-      </div>
-      <img src={imgthree}  className="img-fluid w-50 d-none d-sm-block"></img>
+      <img src={imgthree}  className="img-fluid w-50 d-none d-sm-block m-3"></img>
   </div>
       
   
