@@ -8,16 +8,16 @@ import Radium, { StyleRoot } from 'radium';
 
 
 function Prizes() {
-  const styleone={borderRadius:'45% ',padding:'0 10%',backgroundColor:'white',fontSize:'10px', width:'100px',height:'110px','@media  (max-width:400px)':{
+  const styleone={borderRadius:'45% ',padding:'0 10%',backgroundColor:'white',fontSize:'10px', width:'100px',height:'110px','@media  (max-width:600px)':{
      width:'70px',height:'80px'
   }}
-  const styletwo={borderRadius:'45% ',padding:'0 4%',backgroundColor:'white',fontSize:'10px', width:'100px',height:'110px','@media  (max-width:400px)':{
+  const styletwo={borderRadius:'45% ',padding:'0 4%',backgroundColor:'white',fontSize:'10px', width:'100px',height:'110px','@media  (max-width:600px)':{
     width:'70px',height:'80px'
  }}
- const stylethree={borderRadius:'45% ',padding:'0 10%',backgroundColor:'white',fontSize:'10px',width:'110px',height:'110px','@media  (max-width:400px)':{
+ const stylethree={borderRadius:'45% ',padding:'0 10%',backgroundColor:'white',fontSize:'10px',width:'110px',height:'110px','@media  (max-width:600px)':{
   width:'80px',height:'80px' 
 }}
-  const style={backgroundColor:'#000033',color:'white',padding:'1%','@media  (max-width:400px)':{
+  const style={backgroundColor:'#000033',color:'white',padding:'1%','@media  (max-width:600px)':{
    
   }}
   return (

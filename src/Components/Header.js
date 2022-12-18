@@ -8,7 +8,7 @@ import Radium, { StyleRoot } from 'radium';
 
 
 function Header() {
-  const style={height:'50px',marginRight:'50px','@media  (max-width:500px)':{
+  const style={height:'50px',marginRight:'50px','@media  (max-width:600px)':{
     display:'none'
   }}
   return (

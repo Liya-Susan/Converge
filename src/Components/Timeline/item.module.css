@@ -171,7 +171,7 @@
     margin-left: 20px;
   }
   
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 600px){
     .container-roadMap {
       width: 70%;
       height: 70%;
