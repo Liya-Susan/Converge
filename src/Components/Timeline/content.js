@@ -29,7 +29,7 @@ const steps = [
     date:"17",
     content: [
       {
-        title: "Offline",
+        title: "Online",
         subtitle:"19-12-2022"
 
       },

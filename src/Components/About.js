@@ -6,11 +6,11 @@ import Radium, { StyleRoot } from 'radium';
 function About() {
    const styleone={display: 'flex',
    justifyContent: 'center',
-   paddingBottom:'6%',color:'white',
-   alignItems: 'center',flexDirection:'column',height:'90vh',lineHeight:'25px',PaddingTop:'9%',backgroundColor:'#000033',lineHeight:'40px',
+   paddingBottom:'3%',color:'white',
+   alignItems: 'center',flexDirection:'column',height:'70vh',lineHeight:'25px',PaddingTop:'9%',backgroundColor:'#000033',lineHeight:'40px',
   '@media  (max-width:600px)':{paddingLeft:'8%',paddingRight:'8%',
    paddingBottom:'8%',display: 'flex',PaddingTop:'2%',marginTop:'-10%',
-   justifyContent: 'center',alignItems: 'center',height:'110vh',textAlign:'center',lineHeight:'27px'
+   justifyContent: 'center',alignItems: 'center',height:'110vh',textAlign:'center',lineHeight:'27px',height:'90vh',paddingTop:'39%',backgroundColor:'#000033'
   },
   }
 
