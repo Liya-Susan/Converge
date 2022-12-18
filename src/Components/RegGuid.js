@@ -8,7 +8,7 @@ function RegGuid() {
   const styleone={padding:'9%',color:'white',fontSize:'20px','@media  (max-width:600px)':{
      padding:'3%'
    }}
-   const styletwo={margin:'7%',color:'white',fontSize:'20px','@media  (max-width:600px)':{
+   const styletwo={margin:'4%',color:'white',fontSize:'20px','@media  (max-width:600px)':{
      
    }}
    const stylethree={marginLeft:'43%',marginTop:'4%','@media  (max-width:600px)':{
