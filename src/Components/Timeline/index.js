@@ -4,7 +4,7 @@ import Item from "./item";
 import Radium, { StyleRoot } from 'radium';
 
  function index() {
-  const style={marginLeft:'45%',marginTop:'10%',marginBottom:'7%',color:'#000033','@media  (max-width:400px)':{
+  const style={marginLeft:'45%',marginTop:'10%',marginBottom:'7%',color:'#000033','@media  (max-width:500px)':{
     marginLeft:'5%',textAlign:'center'
    },}
   return (

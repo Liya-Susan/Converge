@@ -5,13 +5,13 @@ import Radium, { StyleRoot } from 'radium';
 
 
 function RegGuid() {
-  const styleone={padding:'9%',color:'white',fontSize:'20px','@media  (max-width:400px)':{
+  const styleone={padding:'9%',color:'white',fontSize:'20px','@media  (max-width:500px)':{
      padding:'3%'
    }}
-   const styletwo={margin:'7%',color:'white',fontSize:'20px','@media  (max-width:400px)':{
+   const styletwo={margin:'7%',color:'white',fontSize:'20px','@media  (max-width:500px)':{
      
    }}
-   const stylethree={marginLeft:'43%',marginTop:'4%','@media  (max-width:400px)':{
+   const stylethree={marginLeft:'43%',marginTop:'4%','@media  (max-width:500px)':{
     marginLeft:'22%'
   },}
   const style={'@media  (max-width:400px)':{

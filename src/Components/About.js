@@ -7,22 +7,22 @@ function About() {
    const styleone={display: 'flex',
    justifyContent: 'center',
    paddingBottom:'6%',color:'white',
-   alignItems: 'center',flexDirection:'column',height:'90vh',lineHeight:'25px',PaddingTop:'6%',backgroundColor:'#000033',lineHeight:'40px',
-  '@media  (max-width:400px)':{
-   padding:'8%',display: 'flex',PaddingTop:'3%',
+   alignItems: 'center',flexDirection:'column',height:'90vh',lineHeight:'25px',PaddingTop:'9%',backgroundColor:'#000033',lineHeight:'40px',
+  '@media  (max-width:500px)':{paddingLeft:'8%',paddingRight:'8%',
+   paddingBottom:'8%',display: 'flex',PaddingTop:'2%',marginTop:'-10%',
    justifyContent: 'center',alignItems: 'center',height:'110vh',textAlign:'center',lineHeight:'27px'
   },
   }
 
-  const styletwo={marginBottom:'3%',marginTop:'7%',
-  '@media  (max-width:400px)':{
+  const styletwo={marginBottom:'3%',marginTop:'0%',
+  '@media  (max-width:500px)':{
     padding:'8%',marginBottom:'20px',fontSize:'30px'
    },
 }
 
 const style={
-  '@media  (max-width:400px)':{
-    fontSize:'18px',lineHeight:'30px'
+  '@media  (max-width:500px)':{
+    fontSize:'18px',lineHeight:'30px',
    },
 }
 
