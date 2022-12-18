@@ -3,8 +3,8 @@ import img from '../images/img.svg'
 import Radium, { StyleRoot } from 'radium';
 
 function RegTerms() {
-  const styleone={marginLeft:'45%', marginTop:'9%',marginBottom:'-9%',color:'#000033','@media  (max-width:500px)':{
-     marginLeft:'10%',fontSize:'23px'
+  const styleone={marginLeft:'45%', marginTop:'9%',marginBottom:'2%',color:'#000033','@media  (max-width:500px)':{
+     marginLeft:'40%',fontSize:'23px'
    },}
    const styletwo={padding:'65px','@media  (max-width:500px)':{
     padding:'34px',
